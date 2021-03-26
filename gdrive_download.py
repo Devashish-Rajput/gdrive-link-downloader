@@ -9,6 +9,6 @@ for x in links:
   else:
     z=str(i)
   url = 'https://drive.google.com/uc?id='+x
-  output = 'Your title'+z+' Your extenion'
+  output = 'Your title'+z+' Your extension'
   gdown.download(url, output, quiet=False)
   i=i+1 
